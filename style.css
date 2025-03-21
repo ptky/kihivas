@@ -1,0 +1,110 @@
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+p, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ccc;
+}
+main {
+    max-width: 800px;
+    width: 80%;
+    margin:auto;
+    
+    
+}
+
+body {
+    /* background-image: url("kepek/hatter.jpg"); */
+    background-color: black;
+    background-size: cover;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+header {
+    background-color: rgb(22, 22, 71);
+
+    margin: auto;
+
+    
+}
+
+
+nav {
+    text-align: center;
+    word-spacing: 250px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(24, 209, 255);
+}
+
+
+header h1 {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    margin: auto;
+}
+
+#tarolo, #tarolo2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    color: rgb(36, 204, 255);
+}
+
+#tarolo h2, #tarolo2 h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#tarolo img, #tarolo2 img {
+    width: 70%;
+}
+
+.kep {
+    text-align: center;
+    border: solid 3px aqua;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0,225,255,1);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(0,225,255,1);
+    box-shadow: 0px 0px 35px 0px rgba(0,225,255,1);
+}
+
+article, #masodik {
+    background-color: rgb(26, 26, 26);
+    padding: 60px;
+}
+
+article h2, #masodik h2 {
+    padding: 20px;
+    color: aqua;
+}
+
+#vilaga {
+    display: grid;
+    grid-template-columns: 1fr; 
+    color: rgb(36, 204, 255);
+    background-color: rgb(26, 26, 26);
+}
+
+#vilaga h2 {
+    color: rgb(36, 204, 255);
+}
+
+#vilaga img {
+    width: 80%;
+}
